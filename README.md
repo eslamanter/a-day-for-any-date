@@ -20,7 +20,7 @@ The previous Julian system (Since Jan 1, 1 AD):
 - Julian Factor = (The year EXCEPT the last two digits) Mod 7
 - Julian leap year is the year which is divisible by 4
 
-### Months = M
+### Month = M
 - MAY = 0
 - FEB (leap), AUG = 1
 - FEB, MAR, NOV = 2
