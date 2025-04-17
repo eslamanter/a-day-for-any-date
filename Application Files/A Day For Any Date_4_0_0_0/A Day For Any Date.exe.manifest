@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="4.0.0.0" name="A Day For Any Date.exe" publicKeyToken="1717b9e623744e6a" language="en" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="business_calendar_event_history_month_plan_reminder_date_day_appointment-512.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="A Day For Any Date" version="4.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="A Day For Any Date.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="A Day For Any Date.exe" size="802816">
+      <assemblyIdentity name="A Day For Any Date" version="4.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>TgPQphek8IkslaVPIzNIuCwv+uQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="business_calendar_event_history_month_plan_reminder_date_day_appointment-512.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>s1P6VZIn3OqGxOXKAl0RWyPTKX8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=STUDENT-PC136\Student" issuerKeyHash="4aac844b8794fc9b83a9de03a8349d7d84e4361c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>BEhgJdMvw6M9KfHJKJhLy5JXXj0=</DigestValue></Reference></SignedInfo><SignatureValue>n/h1HXPlsz6qpsZrhukYMgc5cVPETirl3sHrw1pQ/Xy7TWXtYdRAqadZWZpXqVZHjmnz5tqQ7O80PtYtit2C3MuR5TQ4S4kG73wa1YJac2gvfnQX750BbBlb98z7W2JPVd7csK7oGsfzkiu6Vn7gkP0DDiKp9Mge4kh267njAKY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6FHnQcVDi3WijvUc2Z7jCJpFNSuUHl2bBDWW4ksovJ81vpYBDaql4vtRdNem2/a6CJPERmyEOQTFYAlPZM5txsOhnh0wi7PYjYFukCEQ+8gFBLubE/l2SXtRyLPS8LtRFtta+qpNpWjw64CX4AyZX+RcHQ0GLTFpi/ue8dexLwM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3d5e5792cb4b9828c9f1293da3c32fd325604804" Description="" Url=""><as:assemblyIdentity version="4.0.0.0" name="A Day For Any Date.exe" publicKeyToken="1717b9e623744e6a" language="en" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=STUDENT-PC136\Student</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>tiIV6rFD0vKffPRdKh3lLzBTrn4=</DigestValue></Reference></SignedInfo><SignatureValue>bOniztd/ZFMCQ/aq82eWsVYJWjsnZc3jDrIMj9i8WntTmRii+ZBL4Be2p+OGmxz2xuFWysfQ6CdKBAglEPJbvqV/M9EnbdcKd8BceP7fsc1s1Jv1IvdrQ7HOXYqAdEFpuwCh3qoQaIHJfJ9ri9aHb+k7Olhd3c3zdvlhuSmLUn8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6FHnQcVDi3WijvUc2Z7jCJpFNSuUHl2bBDWW4ksovJ81vpYBDaql4vtRdNem2/a6CJPERmyEOQTFYAlPZM5txsOhnh0wi7PYjYFukCEQ+8gFBLubE/l2SXtRyLPS8LtRFtta+qpNpWjw64CX4AyZX+RcHQ0GLTFpi/ue8dexLwM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQS6Gt4Sayg5hH5fUlAviq+TANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioAUwBUAFUARABFAE4AVAAtAFAAQwAxADMANgBcAFMAdAB1AGQAZQBuAHQwHhcNMTUwMjIxMjIzNTU3WhcNMTYwMjIyMDQzNTU3WjA1MTMwMQYDVQQDHioAUwBUAFUARABFAE4AVAAtAFAAQwAxADMANgBcAFMAdAB1AGQAZQBuAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOhR50HFQ4t1oo71HNme4wiaRTUrlB5dmwQ1luJLKLyfNb6WAQ2qpeL7UXTXptv2ugiTxEZshDkExWAJT2TObcbDoZ4dMIuz2I2BbpAhEPvIBQS7mxP5dkl7Uciz0vC7URbbWvqqTaVo8OuAl+AMmV/kXB0NBi0xaYv7nvHXsS8DAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAUeU51H/Oso1X/apPI7kxsi0WubKWo5jtP5Rhe/OpsZ59fvJ2299/9VuhUDJfzbvqbdPQf8j/0ejlJjHU9a4YPAxJc5vw6RXEkM7vIz1wPpG9Ix4kSxeMwrY/TGc+JhWHg+dOUVKZPf8wWkIlC3vWxbNSYL41EkaRFy8UyWaMfLk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
